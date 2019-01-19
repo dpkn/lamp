@@ -7,7 +7,7 @@ void setup(void) {
 
   // Set up WiFi in station mode, with a static IP, and connect to network
   WiFi.mode(WIFI_STA); 
-  WiFi.config(staticIp,gateway,subnet)){
+  WiFi.config(staticIp,gateway,subnet);
   WiFi.begin(ssid, password);
 
   Serial.println("Trying to connect...");
